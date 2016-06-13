@@ -1,0 +1,31 @@
+<h2>Údaje původce</h2>
+<script type="text/javascript" src="jscripts/editfce_js.js"></script>
+{if $errorstring}
+	<p class="error">{$errorstring}</p>
+{/if}
+<form method="get" enctype="multipart/form-data" class="editform">
+	<fieldset>
+		<label for="nazev" class="required">Název původce *</label>
+		<input type="text" name="nazev" id="nazev" size="40" maxlength="255" value="{$nazev}" />
+		<label for="ulice">Ulice</label>
+		<input type="text" name="ulice" id="ulice" size="40" maxlength="255" value="{$ulice}" />
+		<label for="misto">Místo</label>
+		<input type="text" name="misto" id="misto" size="40" maxlength="255" value="{$misto}" />
+		<label for="psc">PSČ</label>
+		<input type="text" name="psc" id="psc" size="6" maxlength="6" value="{$psc}" />
+		<div>
+		<label for="udvlastnik" class="noblock">Vlastník této úřední desky?</label>
+		<input type="checkbox" name="udvlastnik" id="udvlastnik"{if $udvlastnik} checked="checked"{/if} /> Ano
+		</div>
+		{if $act eq 'edit'}		
+			<input type="hidden" name="idrec" id="idrec" value="{$idrec}" />
+		{/if}
+		<div>
+		<input type="hidden" name="sourcelisturl" id="sourcelisturl" value="{$sourcelisturl}" />
+		<input type="hidden" name="aid" id="aid" value="{$aid}" />
+		<input type="hidden" name="act" id="act" value="{$act}" />
+		<input type="submit" name="savebtn" value="uložit" class="subinput" />
+		<input type="submit" name="savebtn" value="zpět" class="subinput" />
+		</div>
+	</fieldset>
+</form>

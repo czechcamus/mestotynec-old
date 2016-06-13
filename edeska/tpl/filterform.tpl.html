@@ -1,0 +1,16 @@
+<form method="get" enctype="multipart/form-data" id="filterform">
+	<fieldset>
+		<label for="filtercol"><strong>Filtr</strong> - sloupec: </label>
+		<select name="filtercol" id="filtercol">
+			{foreach from=$colarr item=colname}
+			    <option{if $filtercol eq $colname} selected="selected"{/if}>{$colname}</option>
+			{/foreach}
+		</select>
+		<label for="filterval">hodnota: </label>
+		<input type="text" name="filterval" id="filterval" value="{$filterval}" width="25" maxlength="250" class="txtinput" />
+		<input type="hidden" name="ord" id="ord" value="{$ord}" />
+		<input type="hidden" name="aid" id="aid" value="{$aid}" />
+		<input type="submit" name="submitbutton" value="nastavit filtr" class="subinput" />
+		<input type="submit" name="submitbutton" value="zrušit filtr" class="subinput" />
+	</fieldset>
+</form>

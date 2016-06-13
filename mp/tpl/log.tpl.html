@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{title}</title>
+<link rel="stylesheet" href="css/default.css" type="text/css" />
+</head>
+<body>
+	<div id="container">
+		<h1>{title}</h1>
+		{if:logform}
+			<form  method="get" enctype="multipart/form-data">
+				<fieldset>
+				<label for="obdobi_od" class="required">Období od (DD.MM.RRRR) *:</label>
+				<input type="text" name="obdobi_od" id="obdobi_od" size="10" class="txtinput" />
+				<label for="obdobi_do" class="required">Období do (DD.MM.RRRR) *:</label>
+				<input type="text" name="obdobi_do" id="obdobi_do" size="10" class="txtinput" />
+				<input type="hidden" name="aid" id="aid" />
+				<div>
+					<input type="submit" name="save" id="save" value="nastavit" class="subinput" />
+				</div>
+				</fieldset>
+			</form>
+		{else:}
+			<table>
+				<caption>Výpis logu za období od {obdobi_od} do {obdobi_do}</caption> 
+				<tr><th>Čas přístupu</th><th>Jméno návštěvníka</th><th>Osoba - dokument</th></tr>
+				{foreach:data,key,value}
+					<tr><td>{value[acctime]}</td><td>{value[user]}</td><td>{value[person]} - <a href="scripts/viewdoc.php?doc={value[filename]}&amp;{curl_aid}">{value[filetitle]}</a></td></tr>
+				{end:}
+			</table>
+		{end:}
+		<p class="control">&laquo; <a href="index.php?{curl_aid}">návrat</a></p>
+		<p class="userinfo">
+			Přihlášený uživatel: <strong>{userinfo}</strong> <a href="scripts/logout.php?{curl_aid}">odhlásit se</a> &raquo;
+		</p>
+	</div>
+</body>
+</html>

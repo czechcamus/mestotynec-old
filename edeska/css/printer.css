@@ -1,0 +1,35 @@
+/* General ------------------------------------------------------------------*/
+body {
+	color: black;
+	margin: 2cm;
+	font: 120% serif;
+}
+
+#header, #footer, #menu, .subinput {
+	display: none;
+}
+
+#body, #content, .margin {
+	margin: 0;
+	width: 100%;
+}
+
+#body #content .margin * {
+	color: black;
+	border-color: #333;
+}
+
+#body #content .margin table {
+	margin: 10px 0;
+	width: 100%;
+	border-collapse: separate;
+	border: 1px solid;
+}
+
+
+#body #content .margin td, #body #content .margin th {
+	padding: 2px 5px;
+	margin: 2px; 
+	background: white;
+	border: 1px solid;
+}

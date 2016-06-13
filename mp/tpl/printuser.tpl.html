@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{title}</title>
+<link rel="stylesheet" href="css/default.css" type="text/css" />
+</head>
+<body>
+	<div id="printcontainer">
+		<h1>{title}</h1>
+		<div class="content">
+			<address>
+			{titulpred}<br />
+			{jmeno} {prijmeni}<br />
+			{ulicecp}<br />
+			{psc} {mesto}
+			</address>
+			<div>{text1:h}</div>
+			<div class="username">Vaše uživatelské jméno je: <strong>{username}</strong></div>
+			<div class="userpswd">Vaše heslo je: <strong>{userpswd}</strong></div>
+			<div>{text2:h}</div>
+			<p class="footer">Uživatele ověřil a přístupové údaje vydal: {userinfo}<br />
+			 dne: {today}.</p>
+		</div>
+		<p class="control">&laquo; <a href="printuser.php?{curl_aid}&amp;id={id}" onclick="print()">tisk</a> &raquo;</p>
+		<p class="control">&laquo; <a href="usermng.php?{curl_aid}">návrat</a></p>
+	</div>
+</body>
+</html>

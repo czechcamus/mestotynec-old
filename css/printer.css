@@ -1,0 +1,83 @@
+@media print {
+
+body {
+	color: black;
+	font: 80% "Verdana CE", "Helvetica CE", Verdana, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: white;
+	}
+
+address {
+	font-style: normal;
+	font-weight: bold;
+	}
+	
+h2 {
+	font-size: 160%;
+	}
+	
+h3 {
+	font-size: 140%;
+	}
+
+h4 {
+	font-size: 130%;
+}
+
+h5 {
+	font-size: 120%;
+}
+
+h6 {
+	font-size: 110%;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	}
+	
+#container {
+	width: auto;
+	margin: 3em;
+	text-align: left;
+	border: none;
+	background: white;
+}
+	
+#centerbar, #contentbar {
+	float: none;
+	width: auto;
+	margin-left: 0;
+}
+
+#mainkalendarbox {
+	border-top: 1px solid #EFEFEF;
+}
+
+.item1, .item2 {
+	padding: 5px 10px;
+	border-bottom: 1px solid #EFEFEF;
+}
+
+ul, ol {
+	margin: auto;
+	list-style-type: square;
+}
+
+
+li {
+	margin: auto;
+	padding: 0 0 0 20px;
+}
+
+th, td {
+	padding: 5px;
+}
+
+
+#header, #navbarbox, #leftbar, #footer, #top, .localmenu, #calendarform, .back2list {
+	display: none;
+	}
+}

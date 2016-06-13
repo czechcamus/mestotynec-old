@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:admin="http://webns.net/mvcb/"
+xmlns:cc="http://web.resource.org/cc/"
+xmlns="http://purl.org/rss/1.0/">
+<channel rdf:about="http://www.mestotynec.cz/">
+<title>Týnec nad Sázavou</title>
+<link>http://www.mestotynec.cz/</link>
+<description>Oficiální web města Týnce nad Sázavou</description>
+<copyright>Město Týnec nad Sázavou, (c) 2005</copyright>
+<dc:language>cs</dc:language>
+<dc:creator>C@mus</dc:creator>
+<dc:date>2013-12-03T22:12:37+01:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.mestotynec.cz/" />
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1145" />
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1142" />
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1144" />
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1141" />
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=828" />
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1143" />
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=246" />
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1140" />
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=index.php&amp;artid=1140" />
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1137" />
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=radnice/uredni-deska/volby&amp;artid=1129" />
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1129" />
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1136" />
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1139" />
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1134" />
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1130" />
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=radnice/uredni-deska/usneseni-zastupitelstva/rok-2013&amp;artid=1138" />
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1135" />
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=mesto-a-okoli/setkani-tyncu&amp;artid=971" />
+<rdf:li rdf:resource="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1098" />
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1145">
+<title>Vánoční strom v Peceradech 2013</title>
+<description>V neděli 1. prosince se na návsi v Peceradech již podruhé rozsvítil vánoční stromeček.</description>
+<link>http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1145</link>
+<dc:creator>A. Smolová</dc:creator>
+<dc:date>2013-12-03T13:12:51+01:00</dc:date>
+</item>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1142">
+<title>Výběrová řízení - Technické služby Týnec nad Sázavou</title>
+<description>Technické služby Týnec nad Sázavou už znají jednatele společností vodního hospodářství, kterým se stal pan Zbyněk Peša a jednatele společnosti technické služby, kterým je pan Jan Kočí. </description>
+<link>http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1142</link>
+<dc:creator>A. Smolová</dc:creator>
+<dc:date>2013-12-03T12:12:39+01:00</dc:date>
+</item>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1144">
+<title>Adventní doba v našem městě</title>
+<description>První adventní neděle letos připadla na 1. prosince, kdy na týneckém hradě a v muzeu začaly tradiční adventní trhy. </description>
+<link>http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1144</link>
+<dc:creator>A. Smolová</dc:creator>
+<dc:date>2013-12-03T07:12:49+01:00</dc:date>
+</item>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1141">
+<title>Kamerový systém města</title>
+<description>Město Týnec nainstalovalo nový kamerový systém.</description>
+<link>http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1141</link>
+<dc:creator>A. Smolová</dc:creator>
+<dc:date>2013-12-02T09:12:41+01:00</dc:date>
+</item>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=828">
+<title>Poloha sypačů</title>
+<description>Středočeský kraj eviduje aktuální polohu sypačů na svých komunikacích</description>
+<link>http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=828</link>
+<dc:creator>M. Kadrnožka</dc:creator>
+<dc:date>2013-12-02T08:12:32+01:00</dc:date>
+</item>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1143">
+<title>V Týnci nad Sázavou se rozsvítil vánoční strom</title>
+<description>V sobotu 30. listopadu se rozsvítil strom a nový betlém v Týnci nad Sázavou.</description>
+<link>http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1143</link>
+<dc:creator>A. Smolová</dc:creator>
+<dc:date>2013-12-02T08:12:23+01:00</dc:date>
+</item>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=246">
+<title>Pozvánka na zastupitelstvo</title>
+<description>Veřejné zasedání zastupitelstva města</description>
+<link>http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=246</link>
+<dc:creator>M. Kadrnožka</dc:creator>
+<dc:date>2013-11-29T13:11:29+01:00</dc:date>
+</item>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1140">
+<title>Vánoční trhy a rozsvícení vánočního stromečku</title>
+<description>Přijďte si zpříjemnit předvánoční čas a nasát skutečnou vánoční atmosféru v sobotu 30. listopadu na Pěší zónu v Týnci nad Sázavou. </description>
+<link>http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1140</link>
+<dc:creator>A. Smolová</dc:creator>
+<dc:date>2013-11-21T13:11:37+01:00</dc:date>
+</item>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=index.php&amp;artid=1140">
+<title>Vánoční trhy a rozsvícení vánočního stromečku</title>
+<description>Přijďte si zpříjemnit předvánoční čas a nasát skutečnou vánoční atmosféru v sobotu 30. listopadu na Pěší zónu v Týnci nad Sázavou. </description>
+<link>http://www.mestotynec.cz/page.php?fp=index.php&amp;artid=1140</link>
+<dc:creator>A. Smolová</dc:creator>
+<dc:date>2013-11-21T13:11:37+01:00</dc:date>
+</item>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1137">
+<title>Podblanický hudební podzim</title>
+<description>V sobotu 9. listopadu se v budově Společenského centra Týnec nad Sázavou konal již 29. ročník festivalu „Podblanický hudební podzim“, na němž za doprovodu Jihočeské komorní filharmonie České Budějovice vystoupila světoznámá sólistka Národního divadla</description>
+<link>http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1137</link>
+<dc:creator>A. Smolová</dc:creator>
+<dc:date>2013-11-19T07:11:37+01:00</dc:date>
+</item>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=radnice/uredni-deska/volby&amp;artid=1129">
+<title>Volby v Týnci nad Sázavou - říjen 2013</title>
+<description>Jak dopadly volby do Poslanecké sněmovny Parlametu České republiky v Týnci nad Sázavou? </description>
+<link>http://www.mestotynec.cz/page.php?fp=radnice/uredni-deska/volby&amp;artid=1129</link>
+<dc:creator>M. Kadrnožka</dc:creator>
+<dc:date>2013-11-19T07:11:43+01:00</dc:date>
+</item>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1129">
+<title>Volby v Týnci nad Sázavou - říjen 2013</title>
+<description>Jak dopadly volby do Poslanecké sněmovny Parlametu České republiky v Týnci nad Sázavou? </description>
+<link>http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1129</link>
+<dc:creator>M. Kadrnožka</dc:creator>
+<dc:date>2013-11-19T07:11:43+01:00</dc:date>
+</item>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1136">
+<title>Svatomartinský lampionový průvod 2013</title>
+<description>V pondělí 11. listopadu se v našem městě uskutečnil tradiční Svatomartinský lampiónový průvod. Průvod vyrazil v 17 hodin od Domu s pečovatelskou službou a došel až do zahrady Společenského centra Týnec, kde byl pro přítomné děti připraven bohatý dopr</description>
+<link>http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1136</link>
+<dc:creator>A. Smolová</dc:creator>
+<dc:date>2013-11-19T07:11:02+01:00</dc:date>
+</item>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1139">
+<title>Výběrové řízení - knihovnice města</title>
+<description>Výběrové řízení na obsazení funkce knihovnice Města Týnec nad Sázavou.</description>
+<link>http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1139</link>
+<dc:creator>A. Smolová</dc:creator>
+<dc:date>2013-11-18T09:11:39+01:00</dc:date>
+</item>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1134">
+<title>Zasedání zastupitelstva 4. listopadu 2013</title>
+<description>V pondělí 4. listopadu se konalo zasedání zastupitelstva. Celkem bylo na programu 12 bodů, a to včetně zahájení a závěru. Program byl velice bohatý, jednalo se například o přísedících u soudu, územním plánu nebo založení obchodní společnosti technick</description>
+<link>http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1134</link>
+<dc:creator>A. Smolová</dc:creator>
+<dc:date>2013-11-15T13:11:00+01:00</dc:date>
+</item>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1130">
+<title>Rekonstrukce mostu v Týnci nad Sázavou</title>
+<description>Informace k rekonstrukci železničního mostu v  Týnci</description>
+<link>http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1130</link>
+<dc:creator>A. Smolová</dc:creator>
+<dc:date>2013-11-14T13:11:01+01:00</dc:date>
+</item>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=radnice/uredni-deska/usneseni-zastupitelstva/rok-2013&amp;artid=1138">
+<title>Usnesení ZM č. 21 - 4.11.2013</title>
+<description>Usnesení ZM č. 21 ze zasedání zastupitelstva města Týnce nad Sázavou konaného dne 4.11.2013</description>
+<link>http://www.mestotynec.cz/page.php?fp=radnice/uredni-deska/usneseni-zastupitelstva/rok-2013&amp;artid=1138</link>
+<dc:creator>A. Smolová</dc:creator>
+<dc:date>2013-11-14T06:11:12+01:00</dc:date>
+</item>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1135">
+<title>Zasedání zastupitelstva – připomínky občanů</title>
+<description>V pondělí 4. listopadu se konalo veřejné zasedání zastupitelstva. Jedním z důležitých bodů byly také připomínky občanů, díky nimž se řešil nepořádek na autobusovém nádraží, průjezd u Hodinářství-klenotnictví Vanžura a propad silnice v Peceradech. </description>
+<link>http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1135</link>
+<dc:creator>A. Smolová</dc:creator>
+<dc:date>2013-11-13T20:11:51+01:00</dc:date>
+</item>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=mesto-a-okoli/setkani-tyncu&amp;artid=971">
+<title>Historie setkání</title>
+<description>Kdy se Týnce setkávaly</description>
+<link>http://www.mestotynec.cz/page.php?fp=mesto-a-okoli/setkani-tyncu&amp;artid=971</link>
+<dc:creator>M. Kadrnožka</dc:creator>
+<dc:date>2013-11-11T16:11:40+01:00</dc:date>
+</item>
+<item rdf:about="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1098">
+<title>Uzavírka silnice II/107 Týnec nad Sázavou - Čakovice</title>
+<description>V pátek 8. listopadu od 18 hodin bude otevřen úsek z Týnce nad Sázavou směrem Čakovice.</description>
+<link>http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1098</link>
+<dc:creator>A. Smolová</dc:creator>
+<dc:date>2013-11-08T13:11:48+01:00</dc:date>
+</item>
+</rdf:RDF>

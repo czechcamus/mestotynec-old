@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="css/atom.css"?>
+<feed version="0.3" xmlns="http://purl.org/atom/ns#">
+<title>Týnec nad Sázavou</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/" />
+<info mode="xml" type="text/html">
+<div xmlns="http://www.w3.org/1999/xhtml">
+This is an Atom formatted XML site feed.
+It is intended to be viewed in a Newsreader
+or syndicated to another site.
+</div>
+</info>
+<modified>2013-12-03T22:12:37+01:00</modified>
+<issued>2013-12-03T22:12:37+01:00</issued>
+<entry>
+<title type="text/html" mode="escaped">Vánoční strom v Peceradech 2013</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1145" />
+<author>
+<name>A. Smolová</name>
+</author>
+<modified>2013-12-03T13:12:51+01:00</modified>
+<issued>2013-12-03T13:12:51+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>V neděli 1. prosince se na návsi v Peceradech již podruhé rozsvítil vánoční stromeček.</p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="text/html" mode="escaped">Výběrová řízení - Technické služby Týnec nad Sázavou</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1142" />
+<author>
+<name>A. Smolová</name>
+</author>
+<modified>2013-12-03T12:12:39+01:00</modified>
+<issued>2013-12-03T12:12:39+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>Technické služby Týnec nad Sázavou už znají jednatele společností vodního hospodářství, kterým se stal pan Zbyněk Peša a jednatele společnosti technické služby, kterým je pan Jan Kočí. </p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="text/html" mode="escaped">Adventní doba v našem městě</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1144" />
+<author>
+<name>A. Smolová</name>
+</author>
+<modified>2013-12-03T07:12:49+01:00</modified>
+<issued>2013-12-03T07:12:49+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>První adventní neděle letos připadla na 1. prosince, kdy na týneckém hradě a v muzeu začaly tradiční adventní trhy. </p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="text/html" mode="escaped">Kamerový systém města</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1141" />
+<author>
+<name>A. Smolová</name>
+</author>
+<modified>2013-12-02T09:12:41+01:00</modified>
+<issued>2013-12-02T09:12:41+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>Město Týnec nainstalovalo nový kamerový systém.</p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="text/html" mode="escaped">Poloha sypačů</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=828" />
+<author>
+<name>M. Kadrnožka</name>
+</author>
+<modified>2013-12-02T08:12:32+01:00</modified>
+<issued>2013-12-02T08:12:32+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>Středočeský kraj eviduje aktuální polohu sypačů na svých komunikacích</p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="text/html" mode="escaped">V Týnci nad Sázavou se rozsvítil vánoční strom</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1143" />
+<author>
+<name>A. Smolová</name>
+</author>
+<modified>2013-12-02T08:12:23+01:00</modified>
+<issued>2013-12-02T08:12:23+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>V sobotu 30. listopadu se rozsvítil strom a nový betlém v Týnci nad Sázavou.</p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="text/html" mode="escaped">Pozvánka na zastupitelstvo</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=246" />
+<author>
+<name>M. Kadrnožka</name>
+</author>
+<modified>2013-11-29T13:11:29+01:00</modified>
+<issued>2013-11-29T13:11:29+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>Veřejné zasedání zastupitelstva města</p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="text/html" mode="escaped">Vánoční trhy a rozsvícení vánočního stromečku</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1140" />
+<author>
+<name>A. Smolová</name>
+</author>
+<modified>2013-11-21T13:11:37+01:00</modified>
+<issued>2013-11-21T13:11:37+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>Přijďte si zpříjemnit předvánoční čas a nasát skutečnou vánoční atmosféru v sobotu 30. listopadu na Pěší zónu v Týnci nad Sázavou. </p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="text/html" mode="escaped">Vánoční trhy a rozsvícení vánočního stromečku</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=index.php&amp;artid=1140" />
+<author>
+<name>A. Smolová</name>
+</author>
+<modified>2013-11-21T13:11:37+01:00</modified>
+<issued>2013-11-21T13:11:37+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>Přijďte si zpříjemnit předvánoční čas a nasát skutečnou vánoční atmosféru v sobotu 30. listopadu na Pěší zónu v Týnci nad Sázavou. </p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="text/html" mode="escaped">Podblanický hudební podzim</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1137" />
+<author>
+<name>A. Smolová</name>
+</author>
+<modified>2013-11-19T07:11:37+01:00</modified>
+<issued>2013-11-19T07:11:37+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>V sobotu 9. listopadu se v budově Společenského centra Týnec nad Sázavou konal již 29. ročník festivalu „Podblanický hudební podzim“, na němž za doprovodu Jihočeské komorní filharmonie České Budějovice vystoupila světoznámá sólistka Národního divadla</p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="text/html" mode="escaped">Volby v Týnci nad Sázavou - říjen 2013</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=radnice/uredni-deska/volby&amp;artid=1129" />
+<author>
+<name>M. Kadrnožka</name>
+</author>
+<modified>2013-11-19T07:11:43+01:00</modified>
+<issued>2013-11-19T07:11:43+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>Jak dopadly volby do Poslanecké sněmovny Parlametu České republiky v Týnci nad Sázavou? </p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="text/html" mode="escaped">Volby v Týnci nad Sázavou - říjen 2013</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1129" />
+<author>
+<name>M. Kadrnožka</name>
+</author>
+<modified>2013-11-19T07:11:43+01:00</modified>
+<issued>2013-11-19T07:11:43+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>Jak dopadly volby do Poslanecké sněmovny Parlametu České republiky v Týnci nad Sázavou? </p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="text/html" mode="escaped">Svatomartinský lampionový průvod 2013</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1136" />
+<author>
+<name>A. Smolová</name>
+</author>
+<modified>2013-11-19T07:11:02+01:00</modified>
+<issued>2013-11-19T07:11:02+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>V pondělí 11. listopadu se v našem městě uskutečnil tradiční Svatomartinský lampiónový průvod. Průvod vyrazil v 17 hodin od Domu s pečovatelskou službou a došel až do zahrady Společenského centra Týnec, kde byl pro přítomné děti připraven bohatý dopr</p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="text/html" mode="escaped">Výběrové řízení - knihovnice města</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1139" />
+<author>
+<name>A. Smolová</name>
+</author>
+<modified>2013-11-18T09:11:39+01:00</modified>
+<issued>2013-11-18T09:11:39+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>Výběrové řízení na obsazení funkce knihovnice Města Týnec nad Sázavou.</p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="text/html" mode="escaped">Zasedání zastupitelstva 4. listopadu 2013</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1134" />
+<author>
+<name>A. Smolová</name>
+</author>
+<modified>2013-11-15T13:11:00+01:00</modified>
+<issued>2013-11-15T13:11:00+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>V pondělí 4. listopadu se konalo zasedání zastupitelstva. Celkem bylo na programu 12 bodů, a to včetně zahájení a závěru. Program byl velice bohatý, jednalo se například o přísedících u soudu, územním plánu nebo založení obchodní společnosti technick</p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="text/html" mode="escaped">Rekonstrukce mostu v Týnci nad Sázavou</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1130" />
+<author>
+<name>A. Smolová</name>
+</author>
+<modified>2013-11-14T13:11:01+01:00</modified>
+<issued>2013-11-14T13:11:01+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>Informace k rekonstrukci železničního mostu v  Týnci</p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="text/html" mode="escaped">Usnesení ZM č. 21 - 4.11.2013</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=radnice/uredni-deska/usneseni-zastupitelstva/rok-2013&amp;artid=1138" />
+<author>
+<name>A. Smolová</name>
+</author>
+<modified>2013-11-14T06:11:12+01:00</modified>
+<issued>2013-11-14T06:11:12+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>Usnesení ZM č. 21 ze zasedání zastupitelstva města Týnce nad Sázavou konaného dne 4.11.2013</p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="text/html" mode="escaped">Zasedání zastupitelstva – připomínky občanů</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1135" />
+<author>
+<name>A. Smolová</name>
+</author>
+<modified>2013-11-13T20:11:51+01:00</modified>
+<issued>2013-11-13T20:11:51+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>V pondělí 4. listopadu se konalo veřejné zasedání zastupitelstva. Jedním z důležitých bodů byly také připomínky občanů, díky nimž se řešil nepořádek na autobusovém nádraží, průjezd u Hodinářství-klenotnictví Vanžura a propad silnice v Peceradech. </p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="text/html" mode="escaped">Historie setkání</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=mesto-a-okoli/setkani-tyncu&amp;artid=971" />
+<author>
+<name>M. Kadrnožka</name>
+</author>
+<modified>2013-11-11T16:11:40+01:00</modified>
+<issued>2013-11-11T16:11:40+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>Kdy se Týnce setkávaly</p>
+</div>
+</content>
+</entry>
+<entry>
+<title type="text/html" mode="escaped">Uzavírka silnice II/107 Týnec nad Sázavou - Čakovice</title>
+<link rel="alternate" type="text/html" href="http://www.mestotynec.cz/page.php?fp=radnice/zpravy&amp;artid=1098" />
+<author>
+<name>A. Smolová</name>
+</author>
+<modified>2013-11-08T13:11:48+01:00</modified>
+<issued>2013-11-08T13:11:48+01:00</issued>
+<content type="application/xhtml+xml" xml:base="http://www.mestotynec.cz/" xml:lang="cs-CZ" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>V pátek 8. listopadu od 18 hodin bude otevřen úsek z Týnce nad Sázavou směrem Čakovice.</p>
+</div>
+</content>
+</entry>
+</feed>

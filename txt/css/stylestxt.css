@@ -1,0 +1,75 @@
+/* General ------------------------------------------------------------------*/
+	
+body {
+	font: 0.8em Arial,"Geneva CE",lucida,sans-serif;
+	margin: 1em 5em;
+	padding: 0;
+}
+
+img {
+	display: none;
+}
+
+input {
+	vertical-align: middle;
+}
+
+fieldset {
+	border: none;
+}
+
+input, label {
+	display: block;
+}
+
+textarea {
+	font: 100% Arial,"Geneva CE",lucida,sans-serif;
+}
+	
+/* Styly pro textový obsah ------------------------------------------------*/
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+/* Styly pro seznamy -------------------------------------------------------*/
+
+.lstdisc {
+	list-style-type: disc;	
+}
+
+.lstsquare {
+	list-style-type: square;	
+}
+
+.lstcircle {
+	list-style-type: circle;	
+}
+
+.lstdec {
+	list-style-type: decimal;	
+}
+
+.lstrom {
+	list-style-type: upper-roman;	
+}
+
+.lstlalfa {
+	list-style-type: lower-alpha;	
+}
+
+.lstualfa {
+	list-style-type: upper-alpha;	
+}
+
+.indent {
+	padding-left: 10px;
+}

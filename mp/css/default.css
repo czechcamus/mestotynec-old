@@ -1,0 +1,225 @@
+@CHARSET "UTF-8";
+@media screen,projection,tv {
+/* Mainstyles ---------------------------------------------------------------*/
+
+body {
+	color: black;
+	font: 0.9em Verdana, "Geneva CE", lucida, sans-serif; 
+	margin: 0;
+	padding: 0;
+	text-align: center; /* IE hack */
+	background: #FEF1CF;
+}
+	
+
+img {
+	margin: 0;
+	border: none;
+}
+
+a {
+	color: #6B3D01;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #4B4B4B;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+	
+form {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset {
+	padding: 20px;
+	border: none;
+}
+
+input {
+	font-size: 90%;
+	vertical-align: middle;
+}
+
+h1,h2,h3,h4,h5,h6,h7 {
+  margin: 0;
+  padding: 0;
+}
+
+.txtinput, textarea, select {
+	border: 1px solid #4B4B4B;
+	background: #FEF1CF;
+	font: 100% Verdana, "Geneva CE", lucida, sans-serif;
+}
+
+.subinput {
+	color: white;
+	font-size: 90%;
+	padding: 0 5px;
+	background: maroon;
+}
+	
+label {
+	display: block;
+	margin: 10px 0 0;
+}
+	
+.required {
+	color: maroon;
+}
+	
+form div {
+	margin: 15px 0;
+}
+
+table {
+	margin: 20px;
+	font-size: 100%;
+	background: #CDCDCD;	
+}
+	
+table td, table th {
+	margin: 1px;
+	padding: 2px 5px;
+	background: white;
+}
+
+table th {
+	color: white;
+	text-align: center;
+	background: #232323;
+}
+	
+h1 {
+	font-size: 160%;
+	padding: 20px;
+	color: white;
+	background: maroon;
+}
+	
+h2 {
+	font-size: 130%;
+	padding: 10px;
+	color: red;
+}
+	
+caption {
+	font-size: 120%;
+	font-weight: bold;
+	text-align: left;
+	padding: 10px 0 0;
+	margin: 0 20px;
+}
+	
+.control {
+	margin: 10px 20px;
+}
+
+.menu {
+	margin: 20px;
+	padding: 0;
+	list-style-type: none;
+	width: 250px;
+}
+	
+.menu li {
+	margin: 3px 0;
+	padding:  5px 10px;
+	border-left: 5px solid #6B3D01;
+	border-bottom: 1px solid #6B3D01;
+	background: #CDCDCD;
+}
+	
+.error {
+	font-size: 120%;
+	color: red;
+	margin: 20px
+}
+	
+.userinfo {
+	font-size: 80%;
+	margin: 0;
+	padding: 5px 20px;
+	background: #CDCDCD;
+}
+	
+/* Layout ------------------------------------------------------------------*/
+
+#container, #logincontainer, #printcontainer {
+	width: 996px;
+	margin: 20px auto;
+	text-align: left;
+	border: 1px solid #333;
+	background: white;
+}
+	
+#logincontainer {
+	width: 400px;
+	text-align: center;
+}
+}
+
+@media print {
+
+#printcontainer h1 {
+	font-size: 140%;
+	padding: 10px;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+	
+#printcontainer .control {
+	display: none;	
+}
+}
+
+/* All media ---*/
+	
+address {
+	margin: 20px 0 30px 40px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#printconatiner h3, #printcontainer h4, #printcontainer h5, #printcontainer h6 {
+	margin: 15px 0 10px;
+}
+	
+h6 {
+	font-size: 100%;
+} 
+
+h5 {
+	font-size: 110%;
+} 
+	
+h4 {
+	font-size: 120%;
+} 
+	
+h3 {
+	font-size: 140%;
+}
+	
+.content {
+	padding: 20px;	
+}
+
+.footer {
+	padding: 20px 40px;
+	font-style: italic;
+}	
+	
+.username {
+	margin: 20px 0 0 40px;
+}
+
+.userpswd {
+	margin: 0 0 20px 40px;
+}

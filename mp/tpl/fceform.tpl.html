@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{title}</title>
+<link rel="stylesheet" href="css/default.css" type="text/css" />
+</head>
+<body>
+	<div id="container">
+		<h1>{title}</h1>
+		{if:error}
+			<p class="error">{error}</p>
+		{end:}
+		<form action="scripts/procform.php" method="get" enctype="multipart/form-data">
+			<fieldset>
+			<label for="nazev" class="required">Název funkce *:</label>
+			<input type="text" name="nazev" id="nazev" size="20" maxlength="50" class="txtinput" />
+			<input type="hidden" name="aid" id="aid" />
+			<input type="hidden" name="required" id="required" value="nazev" />
+			<input type="hidden" name="act" id="act" />
+			<input type="hidden" name="form" id="form" />
+			{if:id}
+				<input type="hidden" name="id" id="id" />
+			{end:}
+			<div>
+				<input type="submit" name="save" id="save" value="uložit" class="subinput" />
+			</div>
+			</fieldset>
+		</form>
+		<p class="control">&laquo; <a href="fcemng.php?{curl_aid}">návrat</a></p>
+		<p class="userinfo">
+			Přihlášený uživatel: <strong>{userinfo}</strong> <a href="scripts/logout.php?{curl_aid}">odhlásit se</a> &raquo;
+		</p>
+	</div>
+</body>
+</html>

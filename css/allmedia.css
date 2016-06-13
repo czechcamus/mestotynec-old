@@ -1,0 +1,56 @@
+/* Others - all media -------------------------------------------------------------*/
+
+.noshow {
+	visibility: hidden;
+}
+
+.nodisp {
+	display: none;
+}
+
+hr.leftclear, hr.rightclear, hr.masterclear {
+	display: block;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	height: 1px;
+	font-size: 1px;
+	line-height: 1px;
+	background: none;
+}
+
+.leftclear {
+	clear: left;
+}
+
+.rightclear {
+	clear: right;
+}
+
+* html hr.rightclear { /* IE hack */
+	display: none;
+}
+
+.masterclear {
+	clear: both;
+}
+
+.articlebox .txt .rightimg {
+	float: right;
+	margin: 0 0 5px 10px;
+}
+
+.articlebox .txt .leftimg {
+	float: left;
+	margin: 0 10px 5px 0;
+}
+
+.articlebox .txt .centerimg {
+	display: block;
+	text-align: center;
+}
+
+#centerbar .articlebox .txt .centerimg {
+  width: 348px;
+  overflow: hidden;
+}

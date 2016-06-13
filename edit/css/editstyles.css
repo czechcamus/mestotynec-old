@@ -1,0 +1,353 @@
+/* General ------------------------------------------------------------------*/
+
+body {
+	color: black;
+	font: 0.8em Arial,"Geneva CE",lucida,sans-serif;
+	margin: 20px;
+	padding: 0;
+	text-align: center; /* IE hack */
+}
+
+h3 {
+	color: #601B03;
+	font-size: 140%;
+}
+
+table {
+	font-size: 90%;
+}
+
+ul, ol {
+	padding-left: 40px;
+}
+
+/* Layout ------------------------------------------------------------------*/
+
+#container {
+	margin: 0;
+	text-align: left;
+}
+
+#left {
+	float: left;
+	width: 300px;
+}
+
+#left ul, #left2 ul {
+	margin: 0 0 0 15px;
+	padding: 0;
+}
+
+#content {
+	padding-left: 320px;
+}
+
+#user {
+	float: right;
+	width: 250px;
+	text-align: right;
+}
+
+#user div {
+	font-weight: bold;
+}
+
+#user fieldset {
+	display: block;
+	padding: 0;
+	background: none;
+	border: none;
+}
+
+#articles {
+	margin-top: 15px;
+	float: right;
+	width: 400px;
+	text-align: right;
+}
+
+#articles h3 {
+	margin-top: 0;
+}
+
+
+/* Styly pro textový obsah -------------------------------------------------*/
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+	
+.uppercase {
+	text-transform: uppercase;
+}
+
+/* Styly pro seznamy -------------------------------------------------------*/
+
+.lstdisc {
+	list-style-type: disc;	
+}
+
+.lstsquare {
+	list-style-type: square;	
+}
+
+.lstcircle {
+	list-style-type: circle;	
+}
+
+.lstdec {
+	list-style-type: decimal;	
+}
+ 
+.lstrom {
+	list-style-type: upper-roman;	
+}
+
+.lstlalfa {
+	list-style-type: lower-alpha;	
+}
+
+.lstualfa {
+	list-style-type: upper-alpha;	
+}
+
+/* Others ------------------------------------------------------------------*/
+
+table td, table th {
+	font-size: 100%;
+	padding: 2px 5px;
+}
+
+table th {
+	background: #AEAEAE;
+}
+
+table td {
+	background: #EFEFEF;
+}
+
+.filltip {
+	margin-top: 0;
+}
+
+fieldset {
+	display: block;
+	padding: 10px;
+	border: none;
+}
+
+#formcontent fieldset {
+	border: 1px solid #333;
+	background: #FCE7E0;
+}
+
+fieldset div {
+	margin: 10px 0;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+}
+
+label.noblock {
+	display: inline;
+}
+
+.navmenu {
+	font-size: 140%;
+}
+
+.navmenu a {
+	color: #562D00;
+}
+
+.menuitems li, .articleitems li {
+	display: block;
+	list-style-type: none;
+	padding: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #333;
+	background: #FDF4DD;
+}
+
+.articleitems li {
+	font-size: 100%;
+	background: #ACC3DA;
+}
+
+.menuitems li a {
+	font-size: 120%;
+	font-weight: bold;
+	color: black;
+}
+
+.articleitems li a {
+	color: black;
+}
+
+.article {
+	font-size: 120%;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.menuitems a .letterkey {
+	color: red;
+}
+
+.control, .controlcenter {
+	margin: 20px 0;
+}
+
+.controlcenter {
+	text-align: center;
+}
+
+.button, .smallbutton {
+	padding: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	background: #003A72;
+}
+
+.smallbutton {
+	border: none;
+	padding: 3px;
+	font-size: 80%;
+	cursor: pointer;
+}
+
+.contentcontrol {
+	margin: 12px 0 5px;
+	text-align: center;
+}
+
+.contentcontrol .button {
+	padding: 5px;
+	line-height: 2.5em;
+	font-size: 90%;
+	font-weight: normal;
+}
+
+.imglink {
+	text-decoration: none;
+}
+
+.imglink img {
+	margin: 5px 5px 0 0;
+	border: none;
+}
+
+.textitem {
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;
+	background: #DEDEDE;
+}
+
+.articlecontent {
+	padding: 10px;
+	background: #ACC3DA;
+	overflow: hidden;
+	border: 1px solid black;
+}
+
+.articlecontent * {
+	margin: 0 0 5px 0;
+}
+
+.articlecontent h4 {
+	font-size: 130%;
+}
+
+.itemmargin {
+	padding: 10px;
+	border: 1px solid black;
+	background: #FCF7E0;
+	overflow: hidden;
+}
+
+.itemmargin * {
+	margin: 0 0 10px 0;
+}
+
+.itemmargin br {
+	margin: 0;
+}
+
+.itemmargin h5 {
+	font-size: 120%;
+}
+
+.itemmargin h6 {
+	font-size: 110%;
+}
+
+.itemmargin .itemimg {
+	display: block;
+}
+
+.itemmargin li {
+	margin: 0;
+}
+
+.article .menujoin {
+	font-weight: normal;
+}
+
+.article .menujoin em {
+	color: #999;
+}
+
+.textcenter {
+	text-align: center;
+}
+
+.textleft {
+	text-align: left;
+}
+
+.textright {
+	text-align: right;
+}
+
+.imgleft {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.imgright {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+.masterclear {
+	display: block;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	height: 1px;
+	line-height: 1px;
+	border: 1px solid red;
+	background: none;
+}
+
+.lang {
+	color: #047F12;
+}
+
+tr.bggreen td {
+	background: #D5F3D1;
+}
+
+tr.bgred td {
+	background: #F3D8D1;
+}

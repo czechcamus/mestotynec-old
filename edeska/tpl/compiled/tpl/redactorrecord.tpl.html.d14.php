@@ -1,0 +1,4 @@
+<?php
+ob_start(); /* template body */ ?>    	<tr><td><?php echo $this->scope["redaktor"];?></td><td><?php echo $this->scope["user"];?></td><td><?php echo $this->scope["email"];?></td><td><?php echo $this->scope["admin"];?></td><td class="buttons"><a href="redactorform.php?<?php echo $this->scope["curl_aid"];?>&amp;act=edit&amp;idrec=<?php echo $this->scope["id"];?>" title="upravit"><img src="img/edit.gif" alt="obrázek - tlačítko upravit" height="20" width="20" /></a> <a href="redactorlist.php?<?php echo $this->scope["curl_aid"];?>&amp;act=delete&amp;idrec=<?php echo $this->scope["id"];?>" title="smazat"><img src="img/delete.gif" alt="obrázek - tlačítko smazat" height="20" width="20" /></a></td></tr><?php  /* end template body */
+return $this->buffer . ob_get_clean();
+?>

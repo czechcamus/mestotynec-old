@@ -1,0 +1,3 @@
+Úkoly:
+ ✘ odstranit ze všech souborů cookie $nrskin @cancelled (14-09-03 08:48)
+ ☐ do css doplnit pro starší browsery header, section, footer, aside, nav, main, article, figure { display: block; } 

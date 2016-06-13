@@ -1,0 +1,4 @@
+<?php
+ob_start(); /* template body */ ?><tr><td><?php echo $this->scope["nazev"];?></td><td class="buttons"><a href="typeform.php?<?php echo $this->scope["curl_aid"];?>&amp;idrec=<?php echo $this->scope["id"];?>&amp;act=edit" title="upravit"><img src="img/edit.gif" alt="obrázek - tlačítko upravit" height="20" width="20" /></a> <a href="?<?php echo $this->scope["curl_aid"];?>&amp;idrec=<?php echo $this->scope["id"];?>&amp;act=delete" title="smazat"><img src="img/delete.gif" alt="obrázek - tlačítko smazat" height="20" width="20" /></a></td></tr><?php  /* end template body */
+return $this->buffer . ob_get_clean();
+?>

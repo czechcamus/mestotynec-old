@@ -1,0 +1,99 @@
+/* Organisation structure -------------------------------------------------------*/
+
+#orgstru {
+	position: relative;
+	width: 500px;
+	height: 484px;
+	margin: 10px 20px;
+	background: url("../img/design/bg_org_stru.gif") no-repeat top left;
+}
+
+#orgstru .txtbox {
+	position: absolute;
+	width: 87px;
+	height: 33px;
+	font-size: 80%;
+	text-align: center;
+	line-height: 12px;
+	padding-top: 5px;
+}
+
+#starosta {
+	top: 160px;
+	left: 20px;
+}
+
+#mistostarosta {
+	top: 279px;
+	left: 137px;
+}
+
+#mpolicie {
+	top: 392px;
+	left: 137px;
+}
+
+#rada {
+	top: 81px;
+	left: 137px;
+}
+
+#komise {
+	top: 81px;
+	left: 256px;
+}
+
+#zastupitelstvo {
+	top: 21px;
+	left: 137px;
+}
+
+#vybory {
+	top: 21px;
+	left: 256px;
+}
+
+#tajemnik {
+	top: 160px;
+	left: 198px;
+}
+
+#kanc-star {
+	top: 215px;
+	left: 198px;
+}
+
+#kanc-taj {
+	top: 54px;
+	left: 392px;
+}
+   
+#kultura {
+	top: 279px;
+	left: 256px;
+}
+
+#dotace {
+	top: 340px;
+	left: 256px;
+}
+
+#majetek {
+	top: 120px;
+	left: 392px;
+}
+
+#financni {
+	top: 182px;
+	left: 392px;
+}
+
+#vystavba {
+	top: 245px;
+	left: 392px;
+}
+
+#knihovna {
+	top: 304px;
+	left: 392px;
+}

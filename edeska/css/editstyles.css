@@ -1,0 +1,554 @@
+/* General ------------------------------------------------------------------*/
+body {
+	color: black;
+	font: 0.9em "Trebuchet MS", "Geneva CE", lucida, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center; /* IE hack */
+	background: white url("../img/bg_all.gif") repeat-y center;
+}
+
+h1 {
+	font-size: 300%;
+	color: #F4F7AF;
+	margin: 0;
+}
+
+h2,h3,h4,h5,h6 {
+	color: #144B04;
+	margin: 0;
+}
+
+img {
+	border: none;
+}
+
+a {
+	color: #144B04;
+}
+
+a:hover {
+	color: red;
+}
+
+address {
+	margin-bottom: 10px;
+}
+
+/* Layout ------------------------------------------------------------------*/
+
+#container {
+	position: relative;
+	margin: 0 auto;
+	width: 996px;
+	text-align: left;
+}
+
+#container .margin {
+	padding: 20px 20px 60px; 
+}
+
+#header {
+	color: white;
+	position: relative;
+	height: 140px;
+	background: #144B04 url('../img/bg_header.jpg') no-repeat left top;
+}
+
+#header a {
+	color: #F4F7AF;
+}
+
+#header a:hover {
+	text-decoration: none;
+}
+
+#header h1 {
+	position: absolute;
+	left: 15px;
+	top: 10px;
+	width: 926px;
+	color: #F4F7AF;
+}
+
+#header h1 span {
+	position: absolute;
+	left: 58px;
+	top: 40px;
+	font-style: italic;
+	font-weight: normal;
+	color: white;
+	font-size: 40%;
+}
+
+#today {
+	position: absolute;
+	font-style: italic;
+	left: 15px;
+	bottom: 10px;
+}
+
+#webredactor {
+	position: absolute;
+	text-align: right;
+	right: 15px;
+	bottom: 10px;
+}
+
+#body {
+	padding: 5px 0;
+}
+
+#content {
+	float: right;
+	width: 751px;
+	background: #FFFFDA;
+}
+
+#content .margin {
+	padding: 10px;
+}
+
+#menu {
+	float: left;
+	width: 200px;
+}
+
+#filterform {
+	margin: 10px 0;
+	padding: 5px;
+	background: #E6E6E6;
+}
+
+#filterform fieldset {
+	border: none;
+}
+
+#footer {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	height: 30px;
+	width: 956px;
+	background: #144B04 url('../img/bg_footer.jpg') no-repeat left center;
+}
+
+#footer p {
+	margin: 0;
+	padding: 5px 10px;
+	color: white;
+	font-size: 90%;
+}
+
+#footer a {
+	color: #F4F7AF;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+#loginbody {
+	background: white;
+}
+
+#logincontainer {
+	margin: 50px auto;
+	width: 250px;
+	text-align: left;
+	background: #92C17E;
+}
+
+#logincontainer h1 {
+	padding: 5px 10px 0;
+	color: #144B04;
+	font-size: 120%;
+}
+
+#logincontainer .error {
+	margin: 5px 10px 0;
+}
+
+#logincontainer .editform {
+	margin: 10px;
+	padding: 0;
+	background: none;
+}
+
+/* Menu --------------------------------------------------------------------*/
+
+#menu .menu1, #menu .menu2 {
+	margin-bottom: 10px;
+}
+
+#menu ul {
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul li {
+	margin-bottom: 1px;
+	list-style-type: none;
+}
+
+#menu a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	background: #BE43C2;
+}
+
+#menu .menu2 a {
+	background: #333;
+}
+
+#menu .on a {
+	background: #9C0084;
+}
+
+#menu a:hover {
+	background: #C000A3;
+}
+
+#menu .menu2 a:hover {
+	background: #454545;
+}
+
+#menu .on li a {
+	padding-left: 15px;
+	background: #787878;
+}
+
+#menu .on li a:hover {
+	background: #525252;
+}
+
+#menu .on li li a {
+	padding-left: 30px;
+}
+
+#menu #articlemenu {
+	margin-top: 15px;
+}
+
+#menu #articlemenu a {
+	background: #144B04;
+}
+
+#menu #articlemenu a:hover {
+	background: #082200;
+}
+
+/* Content -----------------------------------------------------------------*/
+
+h2 span {
+	font-size: 70%;
+	color: #777;
+}
+
+h2 span a {
+	color: #777;
+}
+
+h2 span a:hover {
+	color: #144B04;
+}
+
+#langbar {
+	padding: 5px;
+	background: #144B04;
+}
+
+table {
+	margin: 10px 0;
+	width: 731px;
+	border-collapse: separate;
+	background: #EAEAEA;
+}
+
+td, th {
+	padding: 2px 5px;
+	margin: 2px; 
+	background: white;
+}
+
+th {
+	text-align: center;
+	background: #144B04;
+	color: white;
+}
+
+.buttons, .buttonswide {
+	text-align: center;
+}
+
+.joined td {
+	background: #FFDFB2;
+}
+
+col.caszapisu, col.autor, col.redaktor {
+	width: 120px;
+}
+
+col.buttons {
+	width: 60px;
+}
+
+col.buttonswide {
+	width: 120px;
+}
+
+.switchoff td {
+	background: #C4C4C4;
+}
+
+.publishoff td, .noreg td {
+	background: #FF8080;
+}
+/* Article -----------------------------------------------------------------*/
+
+#articleheader h4, .articlepart h5, .articlepart h6 {
+	margin-top: 15px;
+	font-size: 140%;
+}
+
+.articlepart h5 {
+	font-size: 120%;
+}
+
+.articlepart h6 {
+	font-size: 110%;
+}
+
+.perex {
+	padding: 5px;
+	font-style: italic;
+	background: #E0E0E0;
+}
+
+#articleinfo {
+	padding: 5px;
+	background: #E0E0E0;
+	margin-bottom: 10px;
+}
+.rightbox {
+	float: right;
+	width: 100px;
+	text-align: right;
+}
+
+.articlebottomctrl {
+	clear: both;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.articlepart {
+	clear: right;
+	padding-top: 5px;
+	border-top: 1px solid #144B04;
+}
+
+.articlepartctrl {
+	text-align: right;
+}
+
+#jointable {
+	width: 731px;
+	border-collapse: separate;
+}
+
+#jointable .colnr2 {
+	width: 30px;
+}
+
+#jointable th {
+	text-align: left;
+}
+
+#jointable td {
+	background: #E0E0E0;
+}
+
+#deleteform {
+	padding-top: 15px;
+	background: none;
+}
+
+.fotopart {
+	padding: 5px;
+	background: #E0E0E0;
+}
+
+.imgdescription {
+	font-style: italic;
+}
+
+.orderbox {
+	border: 2px solid #EAEAEA;
+	background: white;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+}
+
+.orderbox div {
+	text-align: right;
+}
+
+.orderbox div span {
+	color: #144B04;
+	font-weight: bold;
+}	
+
+/* Styly pro editační formuláře --------------------------------------------*/
+
+.editform {
+	background: #E6E6E6;
+}
+
+.editform div {
+	margin: 10px 0;
+}
+
+.editform fieldset {
+	padding: 0 10px;
+	border: none;
+}
+
+.editform label {
+	font-weight: bold;
+	display: block;
+	margin: 10px 0 0 0;
+}
+
+.editform label.noblock {
+	display: inline;
+}
+
+.editform .nolbl {
+	display: none;
+}
+
+.required {
+	color: #144B04;
+}
+
+select, input, textarea {
+	font-size: 110%;
+	font-family: "Trebuchet MS", "Geneva CE", lucida, sans-serif;
+	border: 2px solid #A7A7A7;
+}
+
+.menuselect {
+	width: 710px;
+}
+
+.subinput {
+	color: white;
+	background: black;
+	border: 2px solid #A7A7A7;
+}
+
+.error {
+	font-weight: bold;
+	color: red;
+}
+
+/* Styly pro textový obsah -------------------------------------------------*/
+/*
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+	
+.uppercase {
+	text-transform: uppercase;
+}
+*/
+/* Styly pro seznamy -------------------------------------------------------*/
+/*
+.lstdisc {
+	list-style-type: disc;	
+}
+
+.lstsquare {
+	list-style-type: square;	
+}
+
+.lstcircle {
+	list-style-type: circle;	
+}
+
+.lstdec {
+	list-style-type: decimal;	
+}
+ 
+.lstrom {
+	list-style-type: upper-roman;	
+}
+
+.lstlalfa {
+	list-style-type: lower-alpha;	
+}
+
+.lstualfa {
+	list-style-type: upper-alpha;	
+}
+*/
+/* Others ------------------------------------------------------------------*/
+
+.textcenter {
+	text-align: center;
+}
+
+.textleft {
+	text-align: left;
+}
+
+.textright {
+	text-align: right;
+}
+
+.leftimg {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.rightimg {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+.centerimg {
+	margin: 0 auto;
+}
+
+.rightclear {
+	clear: right;
+}
+
+.masterclear {
+	display: block;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	height: 1px;
+	line-height: 1px;
+	background: none;
+}
+
+.inputon {
+	visibility: visible;
+	height: auto;
+}
+
+.inputoff {
+	display: none;
+}

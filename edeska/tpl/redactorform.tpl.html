@@ -1,0 +1,28 @@
+<h2>Údaje redaktora</h2>
+{if $errorstring}
+	<p class="error">{$errorstring}</p>
+{/if}
+<form method="get" enctype="multipart/form-data" class="editform">
+	<fieldset>
+		<label for="user" class="required">Uživatelské jméno *</label>
+		<input type="text" size="8" name="user" id="user" value="{$user}" maxlength="20" />
+		<label for="pwd" class="required">Uživatelské heslo *</label>
+		<input type="text" size="8" name="pwd" id="pwd" value="{$pwd}" maxlength="8" />
+		<label for="jmeno" class="required">Jméno *</label>
+		<input type="text" size="50" name="jmeno" id="jmeno" value="{$jmeno}" maxlength="50" />
+		<label for="prijmeni" class="required">Příjmení *</label>
+		<input type="text" size="50" name="prijmeni" id="prijmeni" value="{$prijmeni}" maxlength="50" />
+		<label for="email" class="required">E-mail *</label>
+		<input type="text" size="20" name="email" id="email" value="{$email}" maxlength="50" />
+		<div>
+		{if $act eq 'edit'}
+			<input type="hidden" name="idrec" id="idrec" value="{$idrec}" />
+		{/if}
+		<input type="hidden" name="redactorlisturl" id="redactorlisturl" value="{$redactorlisturl}" />
+		<input type="hidden" name="aid" id="aid" value="{$aid}" />
+		<input type="hidden" name="act" id="act" value="{$act}" />
+		<input type="submit" name="savebtn" value="uložit" class="subinput" />
+		<input type="submit" name="savebtn" value="zpět" class="subinput" />
+		</div>
+	</fieldset>
+</form>

@@ -1,0 +1,35 @@
+<ul class="menu1">
+  <li{if $scriptname eq 'recordlist' or $scriptname eq 'recordform'} class="on"{/if}><div><a href="recordlist.php?{$curl_aid}">správa vyvěšení</a>
+  	{if $scriptname eq 'recordlist' or $scriptname eq 'recordform'}
+    <ul>
+      <li><div><a href="recordform.php?{$curl_aid}&amp;act=add">přidat vyvěšení</a></div></li>
+    </ul>
+    {/if}
+  </div></li>
+  <li{if $scriptname eq 'sourcelist' or $scriptname eq 'sourceform'} class="on"{/if}><div><a href="sourcelist.php?{$curl_aid}">správa původců</a>
+  	{if $scriptname eq 'sourcelist' or $scriptname eq 'sourceform'}
+    <ul>
+      <li><div><a href="sourceform.php?{$curl_aid}&amp;act=add">přidat původce</a></div></li>
+    </ul>
+    {/if}
+  </div></li>
+  <li{if $scriptname eq 'typelist' or $scriptname eq 'typeform'} class="on"{/if}><div><a href="typelist.php?{$curl_aid}">správa kategorií</a>
+  	{if $scriptname eq 'typelist' or $scriptname eq 'typeform'}
+    <ul>
+      <li><div><a href="typeform.php?{$curl_aid}&amp;act=add">přidat kategorii</a></div></li>
+    </ul>
+    {/if}
+  </div></li>
+  {if $admin eq 1}
+  <li{if $scriptname eq 'redactorlist' or $scriptname eq 'redactorform'} class="on"{/if}><div><a href="redactorlist.php?{$curl_aid}">správa redaktorů</a>
+  	{if $scriptname eq 'redactorlist' or $scriptname eq 'redactorform'}
+    <ul>
+      <li><div><a href="redactorform.php?{$curl_aid}&amp;act=add">přidat redaktora</a></div></li>
+    </ul>
+    {/if}
+  </div></li>
+  {/if}
+</ul>
+<ul class="menu2">  
+  <li><div><a href="../edit/">správa městského webu</a></div></li>
+</ul>

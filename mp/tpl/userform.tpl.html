@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{title}</title>
+<link rel="stylesheet" href="css/default.css" type="text/css" />
+</head>
+<body>
+	<div id="container">
+		<h1>{title}</h1>
+		{if:error}
+			<p class="error">{error}</p>
+		{end:}
+		<form action="scripts/procform.php" method="get" enctype="multipart/form-data">
+			<fieldset>
+			<label for="username">Uživatelské jméno:</label>
+			<input type="text" name="username" id="username" size="12" readonly="readonly" class="txtinput" />
+			<label for="userpswd">Heslo:</label>
+			<input type="text" name="userpswd" id="userpswd" size="12" readonly="readonly" class="txtinput" />
+			<label for="titulpred">Titul před:</label>
+			<input type="text" name="titulpred" id="titulpred" size="5" maxlength="12" class="txtinput" />
+			<label for="jmeno" class="required">Jméno *:</label>
+			<input type="text" name="jmeno" id="jmeno" size="20" maxlength="50" class="txtinput" />
+			<label for="prijmeni" class="required">Příjmení *:</label>
+			<input type="text" name="prijmeni" id="prijmeni" size="20" maxlength="50" class="txtinput" />
+			<label for="titulza">Titul za:</label>
+			<input type="text" name="titulza" id="titulza" size="5" maxlength="12" class="txtinput" />
+			<label for="rc" class="required">Rodné číslo *:</label>
+			<input type="text" name="rc" id="rc" size="11" class="txtinput" />
+			<label for="ulicecp" class="required">Ulice, č.p. *:</label>
+			<input type="text" name="ulicecp" id="ulicecp" size="20" maxlength="50" class="txtinput" />
+			<label for="mesto" class="required">Město *:</label>
+			<input type="text" name="mesto" id="mesto" size="20" maxlength="50" class="txtinput" />
+			<label for="psc" class="required">PSČ *:</label>
+			<input type="text" name="psc" id="psc" size="5" class="txtinput" />
+			<label for="platnost">Platnost (dny, 0 = neomezeně):</label>
+			<input type="text" name="platnost" id="platnost" size="3" class="txtinput" />
+			<input type="hidden" name="aid" id="aid" />
+			<input type="hidden" name="required" id="required" value="jmeno,prijmeni,rc,ulicecp,mesto,psc" />
+			<input type="hidden" name="act" id="act" />
+			<input type="hidden" name="form" id="form" />
+			{if:id}
+				<input type="hidden" name="id" id="id" />
+			{end:}
+			<div>
+				<input type="submit" name="save" id="save" value="uložit" class="subinput" />
+			</div>
+			</fieldset>
+		</form>
+		<p class="control">&laquo; <a href="usermng.php?{curl_aid}">návrat</a></p>
+		<p class="userinfo">
+			Přihlášený uživatel: <strong>{userinfo}</strong> <a href="scripts/logout.php?{curl_aid}">odhlásit se</a> &raquo;
+		</p>
+	</div>
+</body>
+</html>

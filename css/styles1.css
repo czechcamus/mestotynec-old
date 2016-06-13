@@ -1,0 +1,1500 @@
+@import url("./printer.css");
+@import url("./allmedia.css");
+@import url("./orgstru.css");
+
+@media screen,projection,tv {
+/* Mainstyles ---------------------------------------------------------------*/
+
+body {
+	color: black;
+	font: 0.9em "Trebuchet MS", "Geneva CE", lucida, sans-serif; 
+	margin: 0;
+	padding: 0;
+	text-align: center; /* IE hack */
+	background: white;
+}
+
+img {
+	margin: 0;
+	border: none;
+}
+
+a {
+	color: #0057A6;
+}
+
+a:visited {
+	color: #003260;
+}
+
+a:hover {
+	color: red;
+}
+
+fieldset {
+	padding: 0;
+	border: none;
+}
+
+input {
+	vertical-align: middle;
+}
+
+textarea {
+	font: 100% Arial,"Geneva CE",lucida,sans-serif;
+}
+
+table {
+	font-size: 100%;
+}
+
+dt {
+	font-size: 110%;
+	font-weight: bold;
+}
+
+dd {
+	padding-left: 15px;
+}
+
+
+/* Layout ------------------------------------------------------------------*/
+
+#container {
+	width: 772px;
+	margin: 0 auto;
+	text-align: left;
+	border-top: 15px solid #0057A6;
+	border-bottom: 9px solid #0057A6;
+	background: url("../img/design/vodoznak.gif") no-repeat bottom right;
+}
+
+#header {
+	margin: 0 0 20px 0;
+}
+
+#body {
+	margin: 0 0 20px 0;
+}
+
+#footer {
+	clear: both;
+	padding: 3px;
+	background: #EAEAEA;
+}
+
+/* Header -------------------------------------------------------------------*/
+
+#banner {
+	position: relative;
+	height: 82px;
+}
+
+#quickmenu {
+	margin: 0;
+	font-weight: bold;
+	text-align: right;
+	height: 40px;
+	border-top: 1px solid white;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	background: url("../img/design/bg_qmenu.jpg") no-repeat bottom left;
+}
+
+#quickmenu ul {
+	padding: 10px;
+	margin: 0;
+	list-style-type: none;
+	display: block;
+}
+
+#quickmenu li {
+	display: inline;
+	font-size: 105%;
+	padding: 5px 3px 5px 5px;
+	background: url("../img/design/bg_qmenuitem.gif") no-repeat right center;
+}
+
+[xmlns] #quickmenu li {
+	padding: 5px 8px 5px 3px;
+}
+
+* html #quickmenu li {
+  background: none;
+}
+
+#quickmenu li.lastitem {
+	background: none;
+}
+
+#quickmenu a {
+	color: #BA040B;
+}
+
+#quickmenu a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+h1, h1 a, #logo {
+	position: absolute;
+	margin: 0;
+	font-size: 10px;
+	width: 772px;
+	height: 82px;
+	top: 0;
+	left: 0;
+}
+
+#banner h1 {
+	padding-left: 12em;
+}
+
+#banner h1 a {
+	padding-left: 0;
+}
+
+#logo {
+	background: url("../img/design/bg_banner.jpg") no-repeat top left;
+	cursor: pointer;
+}
+
+#searchbar {
+	color: white;
+	background: #BA040B;
+	padding: 1px 10px; 
+	margin: 1px 0;
+}
+
+#searchform {
+	margin: 0;
+}
+
+#searchform label {
+	padding-right: 5px;
+	font-weight: bold;
+}
+
+#searchform .txtinput {
+	width: 110px;
+	border: 1px solid #6E6E6E;
+	background: white url("../img/design/bg_searchtxt.jpg") no-repeat top left;
+}
+
+#searchform .subinput {
+	color: white;
+	padding: 3px 5px;
+	background: transparent url("../img/design/bg_searchinput.jpg") no-repeat center center;
+	border: 1px solid #BA040B;
+}
+
+#flags {
+	visibility: hidden; /* dočasné znepřístupnění jazykových verzí */
+	position: relative;
+	float: right;
+	width: 75px;
+	font-size: 7px;
+}
+
+#flags a.cz, #flags a.en, .flag {
+	display: block;
+	position: absolute;
+	width: 34px;
+	height: 25px;
+	cursor: pointer;
+}
+
+#flags a.cz, .cz .flag {
+	top: 0;
+	left: 0;
+}
+
+#flags a.en, .en .flag {
+	top: 0;
+	left: 40px;
+}
+
+.cz .flag {
+	background: url("../img/design/cz_flag.jpg") no-repeat center center;
+}
+
+.en .flag {
+	left: 0;
+	background: url("../img/design/en_flag.jpg") no-repeat center center;
+}
+
+/* ---------- BODY ---------- */
+/* Rightbar ----------------- */
+
+#rightbar {
+	float: right;
+	width: 166px;
+	margin-left: 20px;
+	overflow: hidden;
+}
+
+#anketabox, #weatherbox, #googleadd {
+	width: 166px;
+	border-top: 5px solid #EAEAEA;
+	padding-top: 1px;
+	margin: 10px 0 20px 0;
+}
+
+#googleadd {
+	text-align: center;
+	padding-top: 10px;
+}
+
+#anketabox h3, #weatherbox h3 {
+	color: white;
+	font: italic 0.9em Georgia, "New York CE", utopia, serif;
+	padding: 2px 10px;
+	margin: 0;
+	background: #6E6E6E;
+}
+
+#anketabox .question {
+	font-weight: bold;
+	margin: 10px;
+	color: #BA040B;
+}
+
+#anketabox .answeritem {
+	margin: 3px 10px;
+}
+
+#anketabox .votenr {
+	color: black;
+	float: right;
+	text-align: right;
+	width: 2em;
+}
+
+#anketabox .answertxt {
+	padding-left: 15px;
+	background: url("../img/design/bg_answertxt.gif") no-repeat 0 5px;
+}
+
+#anketabox .voteimg {
+	line-height: 7px;
+	margin-top: 2px;
+	background: #E8E8E8;
+}
+
+#anketabox .sum {
+	text-align: center;
+	font-size: 90%;
+	font-style: italic;
+}
+
+#weatherbox .weatheritem {
+	line-height: 1em;
+	margin: 10px;
+	font-size: 80%;
+	padding-left: 40px;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+#weatherbox p {
+  margin: 5px;
+  text-align: center;
+  font-size: 80%;
+}
+
+#weatherbox .daytitle {
+	font-weight: bold;
+	color: #BA040B;
+}
+
+.zsp {
+	background-image: url("../img/design/pocasi/zsp.gif");
+}
+
+.zsdp {
+	background-image: url("../img/design/pocasi/zsdp.gif");
+}
+
+.zsd {
+	background-image: url("../img/design/pocasi/zsd.gif");
+}
+	
+.zs {
+	background-image: url("../img/design/pocasi/zs.gif");
+}
+
+.zp {
+	background-image: url("../img/design/pocasi/zp.gif");
+}
+
+.zm {
+	background-image: url("../img/design/pocasi/zm.gif");
+}
+
+.zdsp {
+	background-image: url("../img/design/pocasi/zdsp.gif");
+}
+
+.zds {
+	background-image: url("../img/design/pocasi/zds.gif");
+}
+
+.zdp {
+	background-image: url("../img/design/pocasi/zdp.gif");
+}
+
+.zdb {
+	background-image: url("../img/design/pocasi/zdb.gif");
+}
+
+.zd {
+	background-image: url("../img/design/pocasi/zd.gif");
+}
+
+.zbd {
+	background-image: url("../img/design/pocasi/zbd.gif");
+}
+
+.zb {
+	background-image: url("../img/design/pocasi/zb.gif");
+}
+
+.z {
+	background-image: url("../img/design/pocasi/z.gif");
+}
+
+.szsp {
+	background-image: url("../img/design/pocasi/szsp.gif");
+}
+
+.szsd {
+	background-image: url("../img/design/pocasi/szsd.gif");
+}
+
+.szs {
+	background-image: url("../img/design/pocasi/szs.gif");
+}
+
+.szp {
+	background-image: url("../img/design/pocasi/szp.gif");
+}
+
+.szm {
+	background-image: url("../img/design/pocasi/szm.gif");
+}
+
+.szds {
+	background-image: url("../img/design/pocasi/szds.gif");
+}
+
+.szdp {
+	background-image: url("../img/design/pocasi/szdp.gif");
+}
+
+.szdb {
+	background-image: url("../img/design/pocasi/szdb.gif");
+}
+
+.szd {
+	background-image: url("../img/design/pocasi/szd.gif");
+}
+
+.szbd {
+	background-image: url("../img/design/pocasi/szbd.gif");
+}
+
+.szb {
+	background-image: url("../img/design/pocasi/szb.gif");
+}
+
+.sz {
+	background-image: url("../img/design/pocasi/sz.gif");
+}
+
+.sj {
+	background-image: url("../img/design/pocasi/sj.gif");
+}
+
+.psp {
+	background-image: url("../img/design/pocasi/psp.gif");
+}
+
+.psdp {
+	background-image: url("../img/design/pocasi/psdp.gif");
+}
+
+.psd {
+	background-image: url("../img/design/pocasi/psd.gif");
+}
+
+.ps {
+	background-image: url("../img/design/pocasi/ps.gif");
+}
+
+.pp {
+	background-image: url("../img/design/pocasi/pp.gif");
+}
+
+.pm {
+	background-image: url("../img/design/pocasi/pm.gif");
+}
+
+.pdsp {
+	background-image: url("../img/design/pocasi/pdsp.gif");
+}
+
+.pds {
+	background-image: url("../img/design/pocasi/pds.gif");
+}
+
+.pdp {
+	background-image: url("../img/design/pocasi/pdp.gif");
+}
+
+.pdb {
+	background-image: url("../img/design/pocasi/pdb.gif");
+}
+
+.pd {
+	background-image: url("../img/design/pocasi/pd.gif");
+}
+
+.pbd {
+	background-image: url("../img/design/pocasi/pbd.gif");
+}
+
+.pb {
+	background-image: url("../img/design/pocasi/pb.gif");
+}
+
+.p {
+	background-image: url("../img/design/pocasi/p.gif");
+}
+
+.osp {
+	background-image: url("../img/design/pocasi/osp.gif");
+}
+
+.osdp {
+	background-image: url("../img/design/pocasi/osdp.gif");
+}
+
+.osd {
+	background-image: url("../img/design/pocasi/osd.gif");
+}
+
+.os {
+	background-image: url("../img/design/pocasi/os.gif");
+}
+
+.op {
+	background-image: url("../img/design/pocasi/op.gif");
+}
+
+.om {
+	background-image: url("../img/design/pocasi/om.gif");
+}
+
+.odsp {
+	background-image: url("../img/design/pocasi/odsp.gif");
+}
+
+.ods {
+	background-image: url("../img/design/pocasi/ods.gif");
+}
+
+.odp {
+	background-image: url("../img/design/pocasi/odp.gif");
+}
+
+.odb {
+	background-image: url("../img/design/pocasi/odb.gif");
+}
+
+.od {
+	background-image: url("../img/design/pocasi/od.gif");
+}
+
+.obd {
+	background-image: url("../img/design/pocasi/obd.gif");
+}
+
+.ob {
+	background-image: url("../img/design/pocasi/ob.gif");
+}
+
+.o {
+	background-image: url("../img/design/pocasi/o.gif");
+}
+
+.m {
+	background-image: url("../img/design/pocasi/m.gif");
+}
+
+.j {
+	background-image: url("../img/design/pocasi/j.gif");
+}
+
+/* Centerbar + contentbar --- */
+
+#centerbar, #contentbar {
+	float: right;
+	width: 368px;
+	margin-left: 20px;
+	overflow: hidden;
+}
+
+#contentbar {
+	width: 554px;
+	overflow: hidden;
+}
+
+#centerbar .articlebox {
+	padding: 10px;
+	border: 1px solid #DDD;
+	background: #F2F2F2;
+}
+
+#navbarbox {
+	color: #BA040B; 
+	margin: 10px 0;
+	padding: 3px 10px;
+	background: #EAEAEA;
+}
+
+#navbarbox a {
+  color: black; 
+}
+
+#navbarbox a:hover {
+	text-decoration: none;
+}
+
+
+.articlebox {
+	margin: 10px 0 20px 0;
+}
+
+.articlebox h2 {
+	color: #0057A6;
+	font: 180% Georgia, "New York CE", utopia, serif;
+	margin: 0 0 10px 0;
+}
+
+.articlebox h5, .articlebox h6 {
+	color: black;
+	font-size: 140%;
+	margin: 10px 0 5px 0;
+}
+
+.articlebox h6 {
+	color: #0057A6;
+	font-size: 120%;
+}
+
+* html .articlebox .txt {
+	height: 1ex;
+}
+
+.articlebox .txt * {
+	margin: 0 0 5px 0;
+}
+
+.articlebox .txt p {
+	text-align: justify;
+}
+
+.articlebox .txt .textcenter {
+	text-align: center;
+}
+
+.articlebox .txt .textleft {
+	text-align: left;
+}
+
+.articlebox .txt .textright {
+	text-align: right;
+}
+
+.articlebox .txt ul {
+	padding: 0;
+	margin: 0 0 5px 0;
+}
+
+.articlebox .txt li {
+	padding: 0;
+	margin: 0 0 0 30px;
+}
+
+.articlebox .imprint {
+	color: #6E6E6E;
+	font-size: 80%;
+	margin: 10px 0 0 0;
+}
+
+.articlebox address {
+	margin-bottom: 10px;
+}
+
+#actualbox, #calendarbox {
+	margin: 10px 0 20px 0;
+}
+
+#actualbox h3, #calendarbox h3 {
+	margin: 10px 0 5px;
+	font: italic 140% Georgia, "New York CE", utopia, serif;
+}
+
+.actualitem, .calendaritem {
+	clear: both;
+	border-top: 1px solid #E8E8E8;
+	padding: 2px 0;
+	margin-bottom: 10px;
+}
+
+.actualitem .datum, .calendaritem .datum {
+	font-size: 90%;
+}
+
+.actualitem .datum {
+	color: #6E6E6E;
+}
+
+.actualitem h4, .calendaritem h4 {
+	font-weight: normal;
+	font-size: 120%;
+}
+
+.actualitem h4 {
+	margin: 0 0 5px 0;
+	color: #BA040B;
+}
+
+.actualitem h4 a {
+	color: #BA040B;
+}
+
+.actualitem h4 a:visited {
+	color: #BA040B;
+}
+
+.actualitem h4 a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.actualitem * {
+	margin: 0 0 5px 0;
+}
+
+.actualitem .details, .backlink {
+	font-size: 90%;
+	margin: 5px 0 0 0;
+	width: 6em;
+	padding-right: 15px;
+	background: url("../img/design/dblrarrow.gif") no-repeat center right;
+}
+
+.backlink {
+  width: 3em;
+}
+
+[xmlns] .actualitem .details {
+	width: 5.2em;
+}
+
+[xmlns] .backlink {
+	width: 2.4em;
+}
+
+.calendaritem .category {
+  float: right;
+  width: 120px;
+	margin-top: 5px;
+}
+
+.calendaritem h4 {
+	font-weight: normal;
+	width: 240px;
+	margin: 0 0 3px;
+}
+
+.calendaritem .datum {
+	width: 240px;
+	margin-top: 5px;
+}
+
+.calendaritem .city {
+  float: right;
+  width: 120px;
+}
+
+.calendaritem .place {
+	width: 240px;
+}
+
+.calendaritem .place, .calendaritem .city {
+	font-size: 80%;
+	color: #6E6E6E;
+}
+
+/* Localmenu -------------- */
+
+.localmenu {
+	font-size: 90%;
+	list-style-type: none;
+	margin: 10px;
+	padding: 0;
+	font-weight: bold;
+}
+
+.localmenu li {
+	padding-left: 15px;
+	background: url("../img/design/bg_menuitem1.gif") no-repeat 0 5px;
+}
+
+/* Servermap -------------- */
+
+.indent {
+	padding-left: 10px;
+}
+
+.level1 {
+	font-weight: bold;
+	background: url("../img/design/bg_menuitem1.gif") no-repeat left center;
+}
+
+.level1 a {
+  color: #BA040B; 
+}
+
+.level1 a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.level2 {
+	font-weight: bold;
+}
+
+.level2, .level3, .level4, .level5 {
+	background: url("../img/design/bg_menuitem2.gif") no-repeat left center;
+}
+
+/* Personal data ---------- */
+
+.person {
+	margin: 10px 0;
+}
+
+.personname strong {
+	font-size: 110%;
+	color: #0057A6;
+}
+
+.person .telefon, .person .fax, .person .icq, .person .mobil {
+	margin: 0;
+	padding: 0 0 0 22px;
+	width: 1ex;
+	background-position: 2px 0;
+	background-repeat: no-repeat;
+}
+
+.telefon {
+	background-image: url("../img/design/pic_telefon.gif");
+}
+
+.fax {
+	background-image: url("../img/design/pic_fax.gif");
+}
+
+.icq {
+	background-image: url("../img/design/pic_icq.gif");
+}
+
+.mobil {
+	background-image: url("../img/design/pic_mobil.gif");
+}
+
+/* Leftbar ---------------- */
+
+#leftbar {
+	float: right;
+	width: 198px;
+	overflow: hidden;
+}
+
+#menubox, #contactbox, #linkbox, #toppagesbox {
+	width: 198px;
+	border-top: 5px solid #EAEAEA;
+	padding-top: 1px;
+	margin: 10px 0 20px 0;
+}
+
+#menubox h3, #contactbox h3, #linkbox h3, #toppagesbox h3 {
+	color: white;
+	font: italic 0.9em Georgia, "New York CE", utopia, serif;
+	padding: 2px 10px;
+	margin: 0 0 10px 0;
+	background: #0057A6;
+}
+
+#menubox h3 {
+	background: #BA040B;
+}
+
+#menubox ul {
+	list-style-type: none;
+	margin: 10px;
+	padding: 0;
+	font-weight: bold;
+}
+
+#menubox ul li {
+	padding-left: 15px;
+	background: url("../img/design/bg_menuitem1.gif") no-repeat 0 5px;
+}
+
+#menubox a .letterkey {
+	color: #6E6E6E;
+}
+
+#menubox .on a {
+	color: #0057A6;
+}
+
+#menubox .on a:visited {
+	color: #0057A6;
+}
+
+#menubox ul li a {
+	color: #BA040B;
+}
+
+#menubox ul li a:visited {
+	color: #BA040B;
+}
+
+#menubox ul li ul {
+	margin: 3px;
+}
+
+#menubox ul li ul li {
+	font-size: 80%;
+	padding-left: 10px;
+	background: url("../img/design/bg_menuitem2.gif") no-repeat 0 7px;
+}
+
+#menubox ul li ul li a, #menubox ul li.on ul li a {
+	color: #6E6E6E;
+}
+
+#menubox ul li ul li a:visited, #menubox ul li.on ul li a:visited {
+	color: #6E6E6E;
+}
+
+#menubox ul li a:hover, #menubox ul li ul li a:hover, #menubox .on a:hover, #menubox ul li.on ul li a:hover  {
+	color: black;
+	text-decoration: none;
+}
+
+#contactbox address {
+	font-size: 90%;
+	margin: 0 10px;
+	font-style: normal;
+	font-weight: bold;
+	padding-left: 15px;
+	background: url("../img/design/bg_addressitem.gif") no-repeat 0 5px;
+}
+
+#contactbox address a {
+	font-weight: normal;
+}
+
+#contactbox .margin {
+	text-align: center;
+}
+
+#contactbox .margin address {
+	text-align: left;
+}
+
+#contactbox .table {
+	font-size: 80%;
+	margin: 0 auto;
+	width: auto;
+	text-align: center;
+}
+
+#contactbox .table caption {
+	margin: 0 auto;
+	font-size: 120%;
+	padding: 10px 0 0 0;
+	color: #0057A6;
+	font-weight: bold;
+}
+
+#contactbox .table th {
+	padding: 0;
+	color: black;
+	font-weight: normal;
+	background: none;
+}
+
+#contactbox .table td {
+	padding: 0;
+}
+
+#linkbox ul, #toppagesbox ul {
+	font-size: 90%;
+	list-style-type: none;
+	margin: 10px;
+	padding: 0;
+}
+
+#linkbox ul li, #toppagesbox ul li {
+	padding-left: 15px;
+	background: url("../img/design/bg_linkitem.gif") no-repeat 0 5px;
+}
+
+.back2list {
+	clear: right;
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+#top {
+	position: relative;
+	display: block;
+	text-decoration: none;
+	left: 220px;
+	width: 15px;
+	height: 15px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+#top span {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 15px;
+	height: 15px;
+	background: url("../img/design/bg_top.gif") no-repeat top left;
+	cursor: pointer;
+}
+
+/* Form styles ------------------------------------------------------------*/
+
+.publicform, #calendarform {
+	margin: 10px 0;
+}
+
+#calendarform {
+	text-align: center;
+}
+
+#calendarform * {
+	vertical-align: middle;
+}
+
+.publicform fieldset, #calendarform fieldset {
+	padding: 10px;
+	background: #DEDEDE;
+}
+
+.publicform label {
+	display: block;
+	font-weight: bold;
+}
+
+.publicform .txtinput.noblock, .publicform label.noblock {
+  vertical-align: middle;
+  display: inline;
+}
+
+.publicform .txtinput.noblock {
+  font-weight: normal;
+}
+
+.publicform label img {
+  vertical-align: middle;
+}
+
+.publicform .txtinput, #calendarform .txtinput {
+	display: block;
+	border: 1px solid #6E6E6E;
+	background: white;
+}
+
+.publicform .radioinput {
+  margin: 10px;
+}
+
+#calendarform .txtinput {
+	display: inline;
+}
+
+.publicform .subinput, #calendarform .subinput {
+	color: white;
+	font-size: 80%;
+	text-transform: uppercase;
+	margin: 5px 0;
+	padding: 3px 5px;
+	background: #DEDEDE url("../img/design/bg_subinput.jpg") no-repeat bottom right;
+	border: 1px solid #DEDEDE;
+}
+
+.publicform .required {
+	color: #BA040B;
+}
+
+.publicform div {
+  padding: 0 0 5px;
+}
+
+.error {
+	color: #0057A6;
+	font-weight: bold;
+}
+
+/* Maincalendar -----------------------------------------------------------*/
+
+#mainkalendarbox {
+	border-top: 1px solid #EFEFEF;
+	border-bottom: 1px solid #EFEFEF;
+	margin: 20px 0;
+}
+
+.item1, .item2 {
+	clear: both;
+	padding: 5px 10px;
+}
+
+.item1 {
+	background: white;
+}
+
+.item2 {
+	background: #EFEFEF;
+}
+
+#mainkalendarbox .category {
+	width: 120px;
+	float: right;
+}
+
+#mainkalendarbox .datum {
+	font-size: 80%;
+	color: #333;
+	width: 500px;
+}
+
+#mainkalendarbox h5 {
+	font-size: 120%;
+	font-weight: normal;
+	color: #0057A6;
+	margin-bottom: 5px;
+	width: 500px;
+}
+
+#mainkalendarbox .city {
+  float: right;
+  width: 120px;
+  color: #777;
+}  
+
+#mainkalendarbox .place {
+  width: 500px;
+  color: #777;
+}  
+
+.dateplace {
+	padding: 5px 10px;
+	background: #EFEFEF;
+}
+
+.dateplace .datum {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.dateplace .place {
+  font-style: italic;
+}
+
+.organizer {
+  font-style: italic;
+  margin: 10px 0 20px;
+  padding: 5px 0 0;
+  border-top: 1px solid #A1A1A1;
+}
+
+/* fotogalerie */
+
+.txt .imagebox {
+	float: left;
+	width: 175px;
+	height: 260px;
+	margin: 0 5px 5px 0;
+	text-align: center;
+	font-size: 80%;
+	background: #EFEFEF;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.txt .imagemargin {
+	margin: 10px auto;
+}
+
+.txt .imagebox h5 {
+	margin: 0;
+}
+
+.photomargin {
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+.control {
+	padding: 5px;
+}
+
+.photomargin img {
+	border: 5px solid #EFEFEF;
+	margin: 10px 0;
+}
+
+.photomargin h5 {
+	margin: 0;
+	font-size: 120%;
+}
+
+/* Firmy ----------------------------------------------------------------*/
+
+#firmbox {
+	border-top: 1px solid #EFEFEF;
+	border-bottom: 1px solid #EFEFEF;
+	padding-bottom: 10px;
+	margin: 20px 0;
+}
+
+#firmbox * {
+  margin: 0;
+}
+
+#firmbox h3 {
+  margin-top: 20px;
+	color: #0057A6;
+	font: 140% Georgia, "New York CE", utopia, serif;
+}
+
+#firmbox address {
+  font-style: normal;
+}
+
+#firmbox address .nazev {
+  font-weight: bold;
+  font-size: 110%;
+}
+
+#firmbox .firmaddr {
+  margin: 15px 0 0 0;
+  padding: 5px 10px;
+}
+
+#firmbox .bg0 {
+	background: #FAFAFA;
+}
+
+#firmbox .bg1 {
+	background: #EFEFEF;
+}
+
+.firmaddr .telefony, .firmaddr .mobily, .firmaddr .faxy, .firmaddr .emaily {
+  display: block;
+	margin: 0;
+	padding: 0 0 0 22px;
+	background-position: 2px 0;
+	background-repeat: no-repeat;
+}
+
+.firmaddr .telefony {
+	background-image: url("../img/design/pic_telefon.gif");
+}
+
+.firmaddr .mobily {
+	background-image: url("../img/design/pic_mobil.gif");
+}
+
+.firmaddr .faxy {
+	background-image: url("../img/design/pic_fax.gif");
+}
+
+.firmaddr .emaily {
+	background-image: url("../img/design/pic_email.gif");
+}
+
+#firmbox .firmcinn {
+	color: #0057A6;
+	margin: 0;
+	padding: 0 0 0 20px;
+	background: url("../img/design/bulletcinn.gif") no-repeat top left;
+}
+
+#firmbox .firmcinn.bg0 {
+  background-color: #FAFAFA;
+}
+
+#firmbox .firmcinn.bg1 {
+  background-color: #EFEFEF;
+}
+
+/* Footer -----------------------------------------------------------------*/
+
+#footer .imprint {
+	font-size: 80%;
+	text-align: center;
+}
+
+#footer .imprint a {
+	color: black;
+}
+
+#footer .imprint a:hover {
+	text-decoration: none;
+}
+
+/* Styles for text content -------------------------------------------------*/
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.textcenter {
+	text-align: center;
+}
+
+.textright {
+	text-align: right;
+}
+
+.textleft {
+	text-align: left;
+}
+
+/* Styles for lists -------------------------------------------------------*/
+
+.lstdisc {
+	list-style-type: disc;	
+}
+
+.lstsquare {
+	list-style-type: square;	
+}
+
+.lstcircle {
+	list-style-type: circle;	
+}
+
+.lstdec {
+	list-style-type: decimal;	
+}
+
+.lstrom {
+	list-style-type: upper-roman;	
+}
+
+.lstlalfa {
+	list-style-type: lower-alpha;	
+}
+
+.lstualfa {
+	list-style-type: upper-alpha;	
+}
+
+/* Styles for tables -------------------------------------------------------*/
+
+.table, #edtable {
+	margin: 15px 0;
+	font-size: 80%;
+	width: 554px;
+	border: none;
+}
+
+.table th, .table td, #edtable th, #edtable td {
+	padding: 3px 5px;
+}
+
+.table th, #edtable th {
+	color: white;
+	background: #999;
+}
+
+.bg0 {
+	background: white;
+}
+
+.bg1 {
+	background: #FEF6F0;
+}
+
+/* Styles for chat -----------------------------------------------------------*/
+
+.zapis, .odpoved {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.zapis {
+	background: #FEF6F0;
+}
+
+.post {
+  margin-top: 5px;
+  font-size: 90%;
+}
+
+/* Styles for edesk ----------------------------------------------------------*/
+
+#edmenu {
+  font-size: 110%;
+  margin: 20px 0;
+  padding: 0;
+}
+
+#edmenu li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+
+#edtable th {
+  text-align: center;
+  padding: 5px 15px;
+}
+
+#edtable th a {
+  color: white;
+}
+
+#edtable .bg0 {
+  background: #f7f7f7;
+}
+
+#edtable .bg1 {
+  background: #f0f0f0;
+}
+
+#edtable .sl11 {
+  width: 250px;
+}
+
+#edtable .sl12 {
+  font-style: italic;
+}
+
+#edtable .act {
+  background: url('../img/design/ed_act.gif') no-repeat top left;
+}
+
+#edtable .out {
+  background: url('../img/design/ed_out.gif') no-repeat top left;
+}
+
+#edtable .arc {
+  background: url('../img/design/ed_arc.gif') no-repeat top left;
+}
+
+#edtable .ordup {
+  background: #999 url('../img/design/ed_ordup.gif') no-repeat center left;
+}
+
+#edtable .orddown {
+  background: #999 url('../img/design/ed_orddown.gif') no-repeat center left;
+}
+
+#id_typ {
+  width: 200px;
+}
+
+#id_puvodce {
+  width: 400px;
+}
+
+#eddetail {
+  padding: 10px 20px;
+  background: #f0f0f0;
+}
+
+#eddetail h4 {
+  font-size: 110%;
+  color: #0057A6;
+}
+
+#eddetail h5 {
+  font-size: 100%;
+  font-style: italic;
+}
+
+/* And now, something completely different... --------------------------------*/
+
+#rera {
+	position: relative;
+	margin: 0 auto;
+	width: 88px;
+	height: 62px;
+	background: url("../img/design/rera.gif") no-repeat top left;
+}
+
+#iris, #ris, #mserver {
+	position: absolute;
+	display: block;
+	width: 40px;
+	height: 28px;
+	font-size: 10px;
+	text-align: left;
+	text-decoration: none;
+	line-height: 11px;
+}
+
+#iris {
+	top: 0;
+	left: 1px;
+}
+
+#ris {
+	top: 31px;
+	left: 1px;
+}
+
+#mserver {
+	height: 59px;
+	text-align: center;
+	top: 0;
+	left: 45px;
+}
+
+#iris span, #ris span, #mserver span {
+	display: block;
+	padding-top: 12px;
+}
+
+#mserver span {
+	padding-top: 35px;
+}
+
+/* end of media screen, tv, projection */
+}

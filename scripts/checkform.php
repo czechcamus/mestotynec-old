@@ -275,11 +275,16 @@ elseif ($form = "dotazvoda"):
 		$radek_1 = "Jméno a příjmení: ".$jmenoprijmeni;
 		$radek_2 = "Adresa: ".$adresa;
 		$radek_3 = "Místní část: ".$mistnicast;
-		$radek_4 = "Problémy s vydatnostní: " . $problemyvydatnost . ", popis problémů: " . $problemyvydatnostpopis;
-		$radek_5 = "Problémy s kvalitou: " . $problemykvalita . ", popis problémů: " . $problemykvalitapopis;
-		$radek_6 = "Typ studny: " . $typstudny . ", hloubka: " . $hloubkastudny . ", výška vodního sloupce: " . $vodnisloupec . ", počet zásobovaných obyvatel: " . $pocetosob;
-		$radek_7 = "Zájem o připojení na vodovod: " . $pripojenivodovod;
-		@$posta=mail("pesan@mestotynec.cz", "Dotaznik - voda", $radek_1."\n".$radek_2."\n".$radek_3."\n".$radek_4."\n".$radek_5."\n".$radek_6."\n".$radek_7,"From: web@mestotynec.cz\nX-Sender: <web@mestotynec.cz>\nX-Mailer: PHP\nX-Priority: 3\nReturn-Path: <web@mestotynec.cz>\nContent-Type: text/plain; charset=utf-8\n");
+		$radek_4 = "Problémy s vydatnostní: " . $problemyvydatnost;
+		$radek_5 = "Popis problémů s vydatností: " . $problemyvydatnostpopis;
+		$radek_6 = "Problémy s kvalitou: " . $problemykvalita; 
+		$radek_7 = "Popis problémů s kvalitou: " . $problemykvalitapopis;
+		$radek_8 = "Typ studny: " . $typstudny;
+		$radek_9 = "Hloubka studny: " . $hloubkastudny;
+		$radek_10 = "Výška vodního sloupce: " . $vodnisloupec;
+		$radek_11 = "Počet zásobovaných obyvatel: " . $pocetosob;
+		$radek_12 = "Zájem o připojení na vodovod: " . $pripojenivodovod;
+		@$posta=mail("pesan@mestotynec.cz", "Dotaznik - voda", $radek_1."\n".$radek_2."\n".$radek_3."\n\n".$radek_4."\n".$radek_5."\n\n".$radek_6."\n".$radek_7."\n\n".$radek_8."\n".$radek_9."\n".$radek_10."\n".$radek_11."\n\n".$radek_12,"From: web@mestotynec.cz\nX-Sender: <web@mestotynec.cz>\nX-Mailer: PHP\nX-Priority: 3\nReturn-Path: <web@mestotynec.cz>\nContent-Type: text/plain; charset=utf-8\n");
 	endif;
 	if ($errnr):
 		$path2 = "&artid=$artid&errnr=$errnr&jmenoprijmeni=$jmenoprijmeni&adresa=$adresa&mistnicast=$mistnicast&problemyvydatnost=$problemyvydatnost&problemyvydatnostpopis=$problemyvydatnostpopis&problemykvalita=$problemykvalita&problemykvalitapopis=$problemykvalitapopis&typstudny=$typstudny&hloubkastudny=$hloubkastudny&vodnisloupec=$vodnisloupec&pocetosob=$pocetosob&pripojenivodovod=$pripojenivodovod";

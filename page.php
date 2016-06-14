@@ -1,13 +1,6 @@
 <?php // nastavení cookie
-$nrskin = $_COOKIE["nrskin"];
-$idankety = $_COOKIE["idankety"];
-
-if (!$nrskin):
-	$nrskin = 1;
-endif;
-if (!idankety):
-	$idankety = 0;
-endif;
+$nrskin = isset($_COOKIE["nrskin"]) ? $_COOKIE["nrskin"] : 1;
+$idankety = isset($_COOKIE["idankety"]) ? $_COOKIE["idankety"] : 0;
 
 // nactení funkcí
 require "scripts/usrfce.php";

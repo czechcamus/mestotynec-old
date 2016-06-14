@@ -1,4 +1,5 @@
-<?php include "./tpl/header.tpl";
+<?php
+	include "./tpl/header.tpl";
 	if ($recordred["admin"] || $recordred["schval"]):
 		include "./tpl/articles.tpl";
 	endif;

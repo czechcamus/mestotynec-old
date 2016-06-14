@@ -5,8 +5,20 @@
 	{
 		if ($c == 1):
 			$txt = "Špatně zapsaná e-mailová adresa!";
-		elseif ($c == 16):
-			$txt = "Chybí název";
+		elseif ($c == 2):
+			$txt = "Chybí jméno a příjmení žadatele";
+		elseif ($c == 3):
+			$txt = "Chybí e-mailová adresa";
+		elseif ($c == 4):
+			$txt = "Chybí text";
+		elseif ($c == 5):
+			$txt = "Chybí ulice";
+		elseif ($c == 6):
+			$txt = "Chybí město";
+		elseif ($c == 7):
+			$txt = "Chybí psč";
+		elseif ($c == 8):
+			$txt = "Chybí jméno a příjmení pisatele";
 		elseif ($c == 9):
 			$txt = "Chybí uživatelské jméno";
 		elseif ($c == 10):
@@ -15,26 +27,18 @@
 			$txt = "Chybí heslo znovu";
 		elseif ($c == 12):
 			$txt = "Heslo a  heslo znovu jsou různé";
-		elseif ($c == 3):
-			$txt = "Chybí e-mailová adresa";
 		elseif ($c == 13):
 			$txt = "Chybí jméno";
 		elseif ($c == 14):
 			$txt = "Chybí příjmení";
 		elseif ($c == 15):
 			$txt = "Uživatelské jméno je již použito";
-		elseif ($c == 2):
-			$txt = "Chybí jméno a příjmení žadatele";
-		elseif ($c == 8):
-			$txt = "Chybí jméno a příjmení pisatele";
-		elseif ($c == 5):
-			$txt = "Chybí ulice";
-		elseif ($c == 6):
-			$txt = "Chybí město";
-		elseif ($c == 7):
-			$txt = "Chybí psč";
-		elseif ($c == 4):
-			$txt = "Chybí text";
+		elseif ($c == 16):
+			$txt = "Chybí název";
+		elseif ($c == 17):
+			$txt = "Chybí adresa";
+		elseif ($c == 18):
+			$txt = "Chybí místní část";
 		elseif ($c == 99):
 			$txt = "Chybný kód";
 		endif;

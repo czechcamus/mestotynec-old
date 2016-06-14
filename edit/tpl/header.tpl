@@ -1,5 +1,5 @@
 <?php // nacteni funkci
-include "../scripts/settings.php"; 
+include "../scripts/settings.php";
 include "./scripts/editfce.php";
 $idredaktor = CheckLogin();
 $recordred = TblHandler($idredaktor,"redaktor");

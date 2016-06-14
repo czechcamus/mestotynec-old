@@ -243,6 +243,50 @@ elseif ($form == "dotazvize"):
 	@$posta=mail("radnice@mestotynec.cz", "Dotaznik - vize", $radek_1."\n".$radek_2."\n".$radek_3."\n".$radek_4."\n".$radek_5."\n".$radek_6."\n".$radek_7."\n".$radek_8,"From: web@mestotynec.cz\nX-Sender: <web@mestotynec.cz>\nX-Mailer: PHP\nX-Priority: 3\nReturn-Path: <web@mestotynec.cz>\nContent-Type: text/plain; charset=utf-8\n");
 	$path1 = substr($script, 0, strrpos($script, "/"))."/".$pref."infoform.php";
 	$path2 = "?form=dotazvize&fp=$fp&posta=$posta";
+elseif ($form = "dotazvoda"):
+	$jmenoprijmeni = $_POST['jmenoprijmeni'];
+	$adresa = $_POST['adresa'];
+	$mistnicast = $_POST['mistnicast'];
+	$problemyvydatnost = isset($_POST['problemyvydatnost']) ? $_POST['problemyvydatnost'] : "ne";
+	$problemyvydatnostpopis = $_POST['problemyvydatnostpopis'];
+	$problemykvalita = isset($_POST['problemykvalita']) ? $_POST['problemykvalita'] : "ne";
+	$problemykvalitapopis = $_POST['problemykvalitapopis'];
+	$typstudny = isset($_POST['typstudny']) ? $_POST['typstudny'] : "kopana";
+	$hloubkastudny = $_POST['hloubkastudny'];
+	$vodnisloupec = $_POST['vodnisloupec'];
+	$pocetosob = $_POST['pocetosob'];
+	$pripojenivodovod = isset($_POST['pripojenivodovod']) ? $_POST['pripojenivodovod'] : "ne";
+	if (!$jmenoprijmeni):
+		$errnr = 8;
+	elseif (!$adresa):
+		$errnr = 17;
+	elseif (!$mistnicast):
+		$errnr = 18;
+	else:
+		$jmenoprijmeni = BezSkriptu($jmenoprijmeni);
+		$adresa = BezSkriptu($adresa);
+		$mistnicast = BezSkriptu($mistnicast);
+		$problemyvydatnostpopis = BezSkriptu($problemyvydatnostpopis);
+		$problemykvalitapopis = BezSkriptu($problemykvalitapopis);
+		$hloubkastudny = BezSkriptu($hloubkastudny);
+		$vodnisloupec = BezSkriptu($vodnisloupec);
+		$pocetosob = BezSkriptu($pocetosob);
+		// tvorba a poslani zpravy
+		$radek_1 = "Jméno a příjmení: ".$jmenoprijmeni;
+		$radek_2 = "Adresa: ".$adresa;
+		$radek_3 = "Místní část: ".$mistnicast;
+		$radek_4 = "Problémy s vydatnostní: " . $problemyvydatnost . ", popis problémů: " . $problemyvydatnostpopis;
+		$radek_5 = "Problémy s kvalitou: " . $problemykvalita . ", popis problémů: " . $problemykvalitapopis;
+		$radek_6 = "Typ studny: " . $typstudny . ", hloubka: " . $hloubkastudny . ", výška vodního sloupce: " . $vodnisloupec . ", počet zásobovaných obyvatel: " . $pocetosob;
+		$radek_7 = "Zájem o připojení na vodovod: " . $pripojenivodovod;
+		@$posta=mail("pesan@mestotynec.cz", "Dotaznik - voda", $radek_1."\n".$radek_2."\n".$radek_3."\n".$radek_4."\n".$radek_5."\n".$radek_6."\n".$radek_7,"From: web@mestotynec.cz\nX-Sender: <web@mestotynec.cz>\nX-Mailer: PHP\nX-Priority: 3\nReturn-Path: <web@mestotynec.cz>\nContent-Type: text/plain; charset=utf-8\n");
+	endif;
+	if ($errnr):
+		$path2 = "&artid=$artid&errnr=$errnr&jmenoprijmeni=$jmenoprijmeni&adresa=$adresa&mistnicast=$mistnicast&problemyvydatnost=$problemyvydatnost&problemyvydatnostpopis=$problemyvydatnostpopis&problemykvalita=$problemykvalita&problemykvalitapopis=$problemykvalitapopis&typstudny=$typstudny&hloubkastudny=$hloubkastudny&vodnisloupec=$vodnisloupec&pocetosob=$pocetosob&pripojenivodovod=$pripojenivodovod";
+	else:
+		$path1 = substr($script, 0, strrpos($script, "/"))."/".$pref."infoform.php";
+		$path2 = "?form=sdel&fp=$fp&posta=$posta";
+	endif;
 endif;
 
 $path = $path1.$path2;
